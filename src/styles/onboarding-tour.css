@@ -1,0 +1,46 @@
+/* Ajustes del walkthrough MAIA (driver.js) */
+.driver-popover {
+  max-width: 360px;
+}
+
+.driver-popover-footer {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.driver-popover-footer button {
+  text-shadow: none;
+}
+
+.driver-popover-next-btn,
+.driver-popover-prev-btn {
+  background-color: #5454e9 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.driver-popover-next-btn:hover,
+.driver-popover-prev-btn:hover {
+  background-color: #4040d0 !important;
+}
+
+.driver-popover-prev-btn {
+  background-color: #fff !important;
+  color: #5454e9 !important;
+  border: 2px solid #f5f7fb !important;
+}
+
+.driver-popover-prev-btn:hover {
+  background-color: #f5f7fb !important;
+}
+
+.driver-popover-progress-text {
+  font-size: 0.75rem;
+  color: #757575;
+}
